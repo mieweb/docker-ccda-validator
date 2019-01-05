@@ -1,0 +1,8 @@
+[submodule "submodules/reference-ccda-validator"]
+	path = submodules/reference-ccda-validator
+	url = https://github.com/siteadmin/reference-ccda-validator
+	branch = master
+[submodule "submodules/code-validator-api"]
+	path = submodules/code-validator-api
+	url = https://github.com/siteadmin/code-validator-api
+	branch = master
