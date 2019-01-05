@@ -18,14 +18,14 @@ Usage
 git clone this repo
 
 Start the Vagrant machine with 'vagrant up'.
-
 Wait...
-
 Try open up any of the following URLS:
 
 http://localhost:8080/referenceccdaservice/static/validationui.html
-http://localhost:8080/referenceccdaservice/swagger-ui.html#/reference-ccda-validation-controller
+![validationui](https://i.imgur.com/DM3E6ny.png)
 
+http://localhost:8080/referenceccdaservice/swagger-ui.html#/reference-ccda-validation-controller
+![swagger-ui](https://i.imgur.com/1OdtDyg.png)
 
 Having issues?
 =====
