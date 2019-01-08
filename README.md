@@ -1,5 +1,7 @@
 vagrant-ccda-validator
 ===============
+[![Build status](https://ci.appveyor.com/api/projects/status/l2421kcktabrmke9/branch/master?svg=true)](https://ci.appveyor.com/project/wreiske/vagrant-ccda-validator/branch/master)
+
 
 CCDA Validator in a Vagrant VM
 
