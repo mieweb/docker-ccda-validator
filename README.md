@@ -27,7 +27,7 @@ vagrant up
 ```
 
 Wait...
-Try open up any of the following URLS:
+Try opening up any of the following URLS:
 
 http://localhost:8080/referenceccdaservice/static/validationui.html
 ![validationui](https://i.imgur.com/DM3E6ny.png)
