@@ -21,6 +21,11 @@ git clone --recurse-submodules -j8 https://github.com/mieweb/vagrant-ccda-valida
 ```
 
 Start the Vagrant machine with 'vagrant up'.
+```
+cd vagrant-ccda-validator
+vagrant up
+```
+
 Wait...
 Try open up any of the following URLS:
 
