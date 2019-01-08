@@ -17,7 +17,7 @@ Usage
 
 git clone this repo (and submodules! VERY important!)
 ```
-git clone --recurse-submodules -j8 https://github.com/mieweb/vagrant-ccda-validator.git
+git clone --recurse-submodules https://github.com/mieweb/vagrant-ccda-validator.git
 ```
 
 Start the Vagrant machine with 'vagrant up'.
