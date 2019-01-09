@@ -15,6 +15,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision "shell", path: "files/scripts/do-magic.sh"
 
+  config.vm.provider "virtualbox" do |vb|
+    vb.customize ["modifyvm", :id, "--nictype1", "Am79C973"]
+  end
+  
   config.vm.provision "shell" do |s|
     s.inline = "yum -y install puppet"
   end
@@ -24,6 +28,4 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     puppet.module_path = "Puppet/modules"
     puppet.manifest_file  = "site.pp"
   end
-
-
 end
