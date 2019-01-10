@@ -1,0 +1,8 @@
+<Context reloadable="true">
+  <Parameter name="vocabulary.localCodeRepositoryDir" value="/etc/ccda/files/validator_configuration/vocabulary/code_repository" override="true"/>
+  <Parameter name="vocabulary.localValueSetRepositoryDir" value="/etc/ccda/files/validator_configuration/vocabulary/valueset_repository" override="true"/>
+  <Parameter name="referenceccda.configFile" value="/etc/ccda/files/configs_folder/ccdaReferenceValidatorConfig.xml" override="true"/>
+  <Parameter name="referenceccda.isDynamicVocab" value="false" override="true"/>
+  <Parameter name="referenceccda.configFolder" value="/etc/ccda/files/configs_folder" override="true"/>
+  <Parameter name="content.scenariosDir" value="/etc/ccda/files/validator_configuration/scenarios_directory" override="true"/>
+</Context>
