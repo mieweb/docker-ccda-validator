@@ -2,6 +2,7 @@ echo "Make directories to make sure they are there..."
 mkdir -p /etc/ccda/files/validator_configuration/vocabulary/valueset_repository/VSAC
 mkdir -p /etc/ccda/files/validator_configuration/vocabulary/code_repository
 mkdir -p /etc/ccda/files/validator_configuration/scenarios_directory
+mkdir -p /etc/tomcat/Catalina/localhost
 
 echo "Copying validator-api xlsx's..."
 cp /etc/submodules/code-validator-api/codevalidator-api/docs/ValueSetsHandCreatedbySITE/*.xlsx /etc/ccda/files/validator_configuration/vocabulary/valueset_repository/VSAC/
