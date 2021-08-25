@@ -8,7 +8,7 @@ echo "Copying validator-api xlsx's..."
 cp /etc/submodules/code-validator-api/codevalidator-api/docs/ValueSetsHandCreatedbySITE/*.xlsx /etc/ccda/files/validator_configuration/vocabulary/valueset_repository/VSAC/
 
 echo "Downloading reference-cdda-validator war file..."
-wget -nv https://github.com/siteadmin/reference-ccda-validator/releases/download/1.0.42/referenceccdaservice.war -O /var/lib/tomcat/webapps/referenceccdaservice.war
+wget -nv https://github.com/siteadmin/reference-ccda-validator/releases/download/1.0.58/referenceccdaservice.war -O /var/lib/tomcat/webapps/referenceccdaservice.war
 
 
 echo "Copying config_extras..."
