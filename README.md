@@ -1,40 +1,34 @@
-vagrant-ccda-validator
-===============
+# docker-ccda-validator
 
-CCDA Validator in a Vagrant VM
+CCDA Validator in a docker container
 
-### Vagrant CCDA Validator
+## What You'll need
 
-What You'll need
-================
+1. Docker
 
-1. Vagrant
-2. VirtualBox
-3. Disk space and memory for a VM
-
-Usage
-=====
+## Development Usage
 
 git clone this repo (and submodules! VERY important!)
 ```
-git clone --recurse-submodules https://github.com/mieweb/vagrant-ccda-validator.git
+git clone --recurse-submodules https://github.com/mieweb/docker-ccda-validator.git
 ```
 
-Start the Vagrant machine with 'vagrant up'.
+Build the docker
 ```
-cd vagrant-ccda-validator
-vagrant up
+cd docker-ccda-validator
+docker build -t docker-ccda-validator .
+```
+
+Run the docker
+```
+docker run -dp 8080:8080 docker-ccda-validator
 ```
 
 Wait...
 Try opening up any of the following URLS:
 
-http://localhost:8080/referenceccdaservice/static/validationui.html
+http://SERVER_IP:8080/referenceccdaservice/static/validationui.html
 ![validationui](https://i.imgur.com/DM3E6ny.png)
 
-http://localhost:8080/referenceccdaservice/swagger-ui.html#/reference-ccda-validation-controller
+http://SERVER_IP:8080/referenceccdaservice/swagger-ui.html#/reference-ccda-validation-controller
 ![swagger-ui](https://i.imgur.com/1OdtDyg.png)
-
-Having issues?
-=====
-Check the logs folder!
