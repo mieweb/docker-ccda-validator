@@ -1,4 +1,4 @@
-# Set the base image to Ubuntu
+# Set the base image to fedora
 FROM fedora:21
 
 # Update the repository sources list
